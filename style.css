@@ -22,15 +22,15 @@
   --font-size-ui: 0.7em;
   --line-height: 1.25em;
 
-  --bg-page: #f5f5f5;
+  --bg-page: #f7f7f7;
   --bg-header: transparent;
   --text-color: #000000;
   --hover-color: #e0e0e0;
 
-  --header-line: 0.125em solid #000;
+  --header-line: 0.14em solid #000;
   --row-line: 0.0625em solid #000;
 
-  --tick-width: 0.15em;
+  --tick-width: 0.12em;
   --tick-height: 0.5em;
   --sticky-offset: 0.625em;
 }
@@ -206,6 +206,7 @@ tr.description-row td.desc-cell {
   background: transparent;
   padding-left: var(--content-indent);
   hyphens: none; /* prevent hyphenation in description text */
+  line-height: 1.3em;      /* adjust this value to control spacing between lines */
 }
 
 /* =========================
@@ -214,7 +215,7 @@ tr.description-row td.desc-cell {
 tr.description-row td:nth-child(5),
 tr.description-row td:nth-child(6) {
   padding: 0;
-  vertical-align: top;
+  vertical-align: top; /* aligns the cell itself to the top */
   overflow: hidden;
   width: 10%; /* fixed column width for images */
 }
@@ -225,7 +226,7 @@ tr.description-row td .img-container {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* changed from center -> top */
 }
 
 tr.description-row td .img-container img.thumb-img {
@@ -264,6 +265,20 @@ td {
 
 .desc-cell p {
   margin-top: 0;      /* remove top margin */
-  margin-bottom: 0.5em; /* small spacing between paragraphs */
+  margin-bottom: 0em; /* small spacing between paragraphs */
   hyphens: none;      /* prevent hyphenation inside paragraphs */
 }
+
+/* =========================
+   DESCRIPTION ROW CURSOR
+========================= */
+tr.description-row {
+  cursor: default; /* normal cursor for the whole expanded row */
+}
+
+tr.description-row td a {
+  cursor: pointer; /* clickable cursor for hyperlinks */
+}
+
+
+
