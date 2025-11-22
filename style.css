@@ -30,7 +30,7 @@
   --header-line: 0.14em solid #000;
   --row-line: 0.0625em solid #000;
 
-  --tick-width: 0.12em;
+  --tick-width: 0.14em;
   --tick-height: 0.5em;
   --sticky-offset: 0.625em;
 }
@@ -58,7 +58,7 @@ header {
 
 .toggle-all {
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 900;
   font-size: var(--font-size-ui);
   line-height: var(--line-height);
   position: absolute;
@@ -79,35 +79,73 @@ table {
   overflow-x: hidden;
 }
 
-/* Top header row */
-thead .top-header th {
-  border-bottom: none;
+/* Non-sticky top header using caption */
+.top-header-caption {
+  caption-side: top;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  display: table-caption;
+}
+
+.top-header-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  padding-bottom: 3.5em;
+}
+
+.top-header-row .name {
+  grid-column: 1;
   padding: var(--cell-pad-v) var(--cell-pad-h);
-  background: var(--bg-page);
+  font-size: var(--font-size-ui);
+  text-transform: lowercase;
+  font-weight: 700;
+  vertical-align: top;
+  padding-top: 0;
+  line-height: 1.25em;
+}
+
+.top-header-row .header-text {
+  grid-column: 2;
+  padding: var(--cell-pad-v) var(--cell-pad-h);
   font-size: var(--font-size-ui);
   text-transform: lowercase;
   font-weight: 300;
   vertical-align: top;
   padding-top: 0;
-  padding-bottom: 5em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.25em;
 }
 
-thead .top-header .name {
+.top-header-row .header-text .title {
   font-weight: 700;
 }
 
-thead .top-header .header-text .title {
-  font-weight: 700;
-}
-
-thead .top-header .header-text .subtitle {
+.top-header-row .header-text .subtitle {
   font-weight: 300;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.top-header-row .links {
+  padding-top: 0;
+  text-transform: lowercase;
+  font-weight: 300;
+  line-height: 1.25em;
+}
+
+.top-header-row .links a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Make the THEAD itself sticky */
+thead {
+  position: sticky;
+  top: var(--sticky-offset);
+  z-index: 2;
+  background: none;
 }
 
 /* Main table headers */
@@ -116,11 +154,9 @@ thead th {
   font-weight: 700;
   font-size: var(--font-size-ui);
   line-height: var(--line-height);
-  border-bottom: var(--header-line);
+  border-bottom: none;
   padding: var(--cell-pad-v) var(--cell-pad-h);
-  position: sticky;
-  top: var(--sticky-offset);
-  background: var(--bg-header);
+  position: relative;
   vertical-align: middle;
   box-sizing: border-box;
   word-break: break-word;
@@ -129,8 +165,21 @@ thead th {
   text-overflow: ellipsis;
 }
 
+/* Draw ONE continuous sticky line under the header row */
+thead::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0.1em;
+  background: #000;
+  z-index: 3;
+  pointer-events: none;
+}
+
 /* Small vertical ticks */
-thead tr:nth-child(2) th::before {
+thead tr th::before {
   content: "";
   position: absolute;
   left: 0;
@@ -138,9 +187,10 @@ thead tr:nth-child(2) th::before {
   width: var(--tick-width);
   height: var(--tick-height);
   background: #000;
+  z-index: 6;
 }
 
-thead tr:nth-child(2) th:last-child::after {
+thead tr th:last-child::after {
   content: "";
   position: absolute;
   right: 0;
@@ -148,22 +198,25 @@ thead tr:nth-child(2) th:last-child::after {
   width: var(--tick-width);
   height: var(--tick-height);
   background: #000;
+  z-index: 6;
 }
 
 /* =========================
-   TABLE BODY
+   TABLE BODY (main data table only)
 ========================= */
-tbody tr:not(.description-row) td {
+.data-table tbody tr:not(.description-row) td {
   border-bottom: var(--row-line);
 }
 
-tbody tr:not(.description-row):hover td {
+.data-table tbody tr:not(.description-row):hover td {
   background: var(--hover-color);
 }
 
-tbody tr {
+.data-table tbody tr {
   cursor: pointer;
 }
+
+
 
 /* truncation */
 tbody tr:not(.description-row) td {
@@ -205,8 +258,8 @@ tr.description-row td {
 tr.description-row td.desc-cell {
   background: transparent;
   padding-left: var(--content-indent);
-  hyphens: none; /* prevent hyphenation in description text */
-  line-height: 1.3em;      /* adjust this value to control spacing between lines */
+  hyphens: none;
+  line-height: 1.3em;
 }
 
 /* =========================
@@ -215,9 +268,9 @@ tr.description-row td.desc-cell {
 tr.description-row td:nth-child(5),
 tr.description-row td:nth-child(6) {
   padding: 0;
-  vertical-align: top; /* aligns the cell itself to the top */
+  vertical-align: top;
   overflow: hidden;
-  width: 10%; /* fixed column width for images */
+  width: 10%;
 }
 
 tr.description-row td .img-container {
@@ -226,7 +279,7 @@ tr.description-row td .img-container {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* changed from center -> top */
+  align-items: flex-start;
 }
 
 tr.description-row td .img-container img.thumb-img {
@@ -253,7 +306,7 @@ td {
   height: 0.62em;
   margin-left: -0.2em;
   border-radius: 50%;
-  background-color: rgb(0,255,0); /* green */
+  background-color: rgb(0,255,0);
   vertical-align: middle;
   animation: pulse 1.7s infinite ease-in-out;
 }
@@ -264,21 +317,18 @@ td {
 }
 
 .desc-cell p {
-  margin-top: 0;      /* remove top margin */
-  margin-bottom: 0em; /* small spacing between paragraphs */
-  hyphens: none;      /* prevent hyphenation inside paragraphs */
+  margin-top: 0;
+  margin-bottom: 0em;
+  hyphens: none;
 }
 
 /* =========================
    DESCRIPTION ROW CURSOR
 ========================= */
 tr.description-row {
-  cursor: default; /* normal cursor for the whole expanded row */
+  cursor: default;
 }
 
 tr.description-row td a {
-  cursor: pointer; /* clickable cursor for hyperlinks */
+  cursor: pointer;
 }
-
-
-

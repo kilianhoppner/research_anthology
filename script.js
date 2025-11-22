@@ -6,9 +6,18 @@ const archive = [
     col3: "audio/visual, p5.js",
     col4: "letter-press",
     col5: "in-progress",
-    description: `<p>this project explores audio-visual media using p5.js to examine how technology shapes artistic dissemination. it includes interactive components and visualizations that challenge traditional hierarchies.</p>
-                  <p>references here</p>`,
-    images: ["images/eve1.png", "images/eve2.png"]
+    description: `<p>project description here</p>
+                  <p>&nbsp;</p>
+                  <p>//references</p>
+                  <p>nam june paik, <a href="https://www.artgallery.nsw.gov.au/collection/works/342.2011.a-f/" target="_blank" style="color: blue; text-decoration: underline;">tv buddha</a>, 1976</p>
+                  <p>skepta, <a href="https://www.youtube.com/watch?v=rC-J4x-oTto" target="_blank" style="color: blue; text-decoration: underline;">#skeptacore pt.2</a>, 2023</p>
+                  <p>ryoji ikeda, <a href="https://www.ryojiikeda.com/project/datamatics/" target="_blank" style="color: blue; text-decoration: underline;">datamatics</a>, 2006</p>
+                  <p>transwhite studio, <a href="https://tokyotypedirectorsclub.org/en/award/2024_tdc_03/" target="_blank" style="color: blue; text-decoration: underline;">aranya plein air</a>, 2023</p>
+                  <p>&nbsp;</p>`,
+    images: [
+      "images/image.png",
+      "images/image.png"
+    ]
   },
   {
     col1: "the great white erection",
@@ -16,9 +25,18 @@ const archive = [
     col3: "audio/visual, p5.js",
     col4: "web-based, uv printing",
     col5: "in-progress",
-    description: `<p>this project explores audio-visual media using p5.js to examine how technology shapes artistic dissemination. it includes interactive components and visualizations that challenge traditional hierarchies.</p>
-                  <p>references here</p>`,
-    images: ["images/gwe1.png", "images/gwe2.png"]
+    description: `<p>project description here</p>
+                  <p>&nbsp;</p>
+                  <p>//references</p>
+                  <p>nam june paik, <a href="https://www.artgallery.nsw.gov.au/collection/works/342.2011.a-f/" target="_blank" style="color: blue; text-decoration: underline;">tv buddha</a>, 1976</p>
+                  <p>skepta, <a href="https://www.youtube.com/watch?v=rC-J4x-oTto" target="_blank" style="color: blue; text-decoration: underline;">#skeptacore pt.2</a>, 2023</p>
+                  <p>ryoji ikeda, <a href="https://www.ryojiikeda.com/project/datamatics/" target="_blank" style="color: blue; text-decoration: underline;">datamatics</a>, 2006</p>
+                  <p>transwhite studio, <a href="https://tokyotypedirectorsclub.org/en/award/2024_tdc_03/" target="_blank" style="color: blue; text-decoration: underline;">aranya plein air</a>, 2023</p>
+                  <p>&nbsp;</p>`,
+    images: [
+      "iframe:https://kilianhoppner.github.io/thegreatwhiteerection/",
+      "images/image.png"
+    ]
   },
   {
     col1: "electronic superhighway",
