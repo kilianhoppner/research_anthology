@@ -41,9 +41,10 @@ const archive = [
     col3: "p5.js, ableton",
     col4: "web-based",
     col5: "in-progress",
-    description: `<p>project description here -> link sound</p>
+    description: `<p>this project visualises the international organisation for migration's (iom) dtm sudan displacement data from the report dated 30 september 2025 in a text-based interactive table. it shows each state of displacement, state codes, the number of idps and households, the percentage of sudanese nationals, and a breakdown by state of origin. -> link sound</p>
                   <p>&nbsp;</p>
                   <p>//references</p>
+                  <p>international organisation for migration (iom), <a href="https://dtm.iom.int/sudan" target="_blank" style="color: blue; text-decoration: underline;">dtm sudan report</a>, 2025</p>
                   <p>ryoji ikeda, <a href="https://www.180studios.com/data-cosm" target="_blank" style="color: blue; text-decoration: underline;">data-cosm [nº1]</a>, 2023</p>
                   <p>ai weiwei, <a href="https://en.wikipedia.org/wiki/Human_Flow" target="_blank" style="color: blue; text-decoration: underline;">human flow</a>, 2017</p>
                   <p>&nbsp;</p>`,
