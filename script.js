@@ -60,7 +60,8 @@ const archive = [
                   <p>&nbsp;</p>`,
     images: [
       "iframe:https://kilianhoppner.github.io/surveillancecore-pt.1/",
-      "images/surveillancecorept.01/motiontracking.gif"
+      "images/surveillancecorept.01/motiontracking.gif",
+      "images/surveillancecorept.01/surveillancecorept.01_03.png"
     ]
   },
   {
