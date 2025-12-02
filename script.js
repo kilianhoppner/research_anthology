@@ -33,7 +33,9 @@ const archive = [
     col5: "in-progress",
     description: `<p>electronic superhighway is a term coined in 1974 by video art pioneer <a href="https://en.wikipedia.org/wiki/Nam_June_Paik" target="_blank" style="color: blue; text-decoration: underline;">nam june paik</a>. it forecasts technology’s ability to disseminate information and form global connections. using this notion as a starting point, i conduct a series of experiments alluding to: algorithms, information extraction, data as material, digital ecosystems as contested marketplaces etc., in an attempt to understand the fabric that holds together our communication networks.</p>
                   <p>&nbsp;</p>
-                  <p> fig.01 visualises the international organisation for migration's (iom) dtm sudan displacement data from 30 september 2025. it depicts the movement of internally displaced persons (idps) between states, showing the origin and destination of populations. keyboard shortcuts: (h)hide map, (l)line, (e)export.</p>
+                  <p> [fig.01] visualises the international organisation for migration's (iom) dtm sudan displacement data from 30 september 2025. it depicts the movement of internally displaced persons (idps) between states, showing the origin and destination of populations. keyboard shortcuts: (h)hide map, (l)line, (e)export.</p>
+                  <p>&nbsp;</p>
+                  <p>[fig.02] uses ml5.js’ body pose model to examine positionality (x, y). where do we situate in space and how to create connections with things? the intervention of technology is inevitable and will increasingly impact the way we engage with the world (or not). keyboard shortcuts: (h)hide lines, (b)black background.</p>
                   <p>&nbsp;</p>
                   <p>//references</p>
                   <p>international organisation for migration (iom), <a href="https://dtm.iom.int/sudan" target="_blank" style="color: blue; text-decoration: underline;">dtm sudan report</a>, 2025</p>
@@ -56,7 +58,7 @@ const archive = [
     col3: "p5.js",
     col4: "interactive installation",
     col5: "completed",
-    description: `<p>#surveillancecore pt.01 is an interactive installation made in collaboration with <a href="https://www.linkedin.com/in/hannah-ogawa-9931ab303/" target="_blank" style="color: blue; text-decoration: underline;"><u>hannah ogawa</u></a>. the camera in fig.01 is coded to track people's faces and detect their emotions. by transforming personal interactions into data, the installation prompts viewers to reflect on surveillance technology and its capability to blur boundaries between connection and control. it invites critical examination of privacy, agency, and the ethics of observation in the digital age.</p>
+    description: `<p>#surveillancecore pt.01 is an interactive installation made in collaboration with <a href="https://www.linkedin.com/in/hannah-ogawa-9931ab303/" target="_blank" style="color: blue; text-decoration: underline;"><u>hannah ogawa</u></a>. the camera in [fig.01] is coded to track people's faces and detect their emotions. by transforming personal interactions into data, the installation prompts viewers to reflect on surveillance technology and its capability to blur boundaries between connection and control. it invites critical examination of privacy, agency, and the ethics of observation in the digital age.</p>
                   <p>&nbsp;</p>
                   <p>//references</p>
                   <p>nam june paik, <a href="https://www.artgallery.nsw.gov.au/collection/works/342.2011.a-f/" target="_blank" style="color: blue; text-decoration: underline;">tv buddha</a>, 1976</p>
@@ -226,3 +228,20 @@ toggleAllBtn.addEventListener('click', () => {
 // initial render
 renderTable();
 
+
+
+// ---------- IMAGE FULLSCREEN TOGGLE (click anywhere to close) ----------
+document.addEventListener("click", function (e) {
+  const img = e.target.closest("img.thumb-img");
+
+  if (img) {
+    // If the clicked thumbnail is already fullscreen, close it.
+    // Otherwise, close any other fullscreen images then open this one.
+    const wasFullscreen = img.classList.contains('fullscreen-img');
+    document.querySelectorAll('img.thumb-img.fullscreen-img').forEach(i => i.classList.remove('fullscreen-img'));
+    if (!wasFullscreen) img.classList.add('fullscreen-img');
+  } else {
+    // Clicked somewhere else on the document — close all fullscreen images.
+    document.querySelectorAll('img.thumb-img.fullscreen-img').forEach(i => i.classList.remove('fullscreen-img'));
+  }
+});
