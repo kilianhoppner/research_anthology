@@ -21,8 +21,10 @@ const archive = [
       images: [
         "images/thegreatwhiteerection/thegreatwhiteerection.png",
         "iframe:https://kilianhoppner.github.io/thegreatwhiteerection/",
+        "images/image.png",
         "iframe:https://kilianhoppner.github.io/3dspring/",
-        "images/thegreatwhiteerection/thegreatwhiteerection02.png"
+        "images/thegreatwhiteerection/thegreatwhiteerection02.png",
+        "images/thegreatwhiteerection/thegreatwhiteerection03.png"
         
     ]
   },
@@ -48,9 +50,12 @@ const archive = [
                   <p>bruno munari, <a href="http://imagineallthepeople.info/Munari-1966-Design-as-art.pdf" target="_blank" style="color: blue; text-decoration: underline;">design as art</a>, 1966</p>
                   <p>&nbsp;</p>`,
     images: [
+      "images/electronicsuperhighway/electronicsuperhighway04.png",
+      "images/electronicsuperhighway/electronicsuperhighway02.png",
       "iframe:https://kilianhoppner.github.io/ELECTRONICSUPERHIGHWAY-MAP/",
       "iframe:https://kilianhoppner.github.io/bodyskeleton/",
-      "iframe:https://kilianhoppner.github.io/facemesh/"
+      "iframe:https://kilianhoppner.github.io/facemesh/",
+      "images/electronicsuperhighway/electronicsuperhighway.png"
       
     ]
   },
