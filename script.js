@@ -1,22 +1,23 @@
 // ---------- data ----------
 const archive = [
   {
-    col1: "the great white erection",
+    col1: "The Great White Erection",
     col2: "2025",
-    col3: "p5.js, ableton, print",
-    col4: "web-based, publication",
-    col5: "in-progress",
-    description: `<p>in october, i started studying the 622-metre hammersmith flyover. the elevated structure carries the a4 road over a busy central junction in the borough of hammersmith. it was built in 1961 by white, male individuals, pushing and pulling equipment in an <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">erotic dance</a> of construction work. the flyover is composed of a continuous hollow spine beam, 26 feet wide, with arms to support the outer carriageways. a hollow interior runs the whole length of the structure, accommodating surface drainage, electricity supply, and a water main feeding fire hydrants above. its slender and elegant lines, along with its self-regulating functions, make it impossible to regard as passive or unintelligent. instead, it emerges as a dynamic, (female) entity intricately tied to its environment, its identity inscribed by the powerful white men who built it.</p>
+    col3: "p5.js, Ableton, Print",
+    col4: "Web-based, Publication",
+    col5: "In-progress",
+    description: `<p>In October, I started studying the 622-metre Hammersmith Flyover. The elevated structure carries the A4 road over a busy central junction in the borough of Hammersmith. It was built in 1961 by white, male individuals, pushing and pulling equipment in an <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">erotic dance</a> of construction work. The flyover is composed of a continuous hollow spine beam, 26 feet wide, with arms to support the outer carriageways. A hollow interior runs the whole length of the structure, accommodating surface drainage, electricity supply, and a water main feeding fire hydrants above. Its slender and elegant lines, along with its self-regulating functions, make it impossible to regard as passive or unintelligent. Instead, it emerges as a dynamic, (female) entity intricately tied to its environment, its identity inscribed by the powerful white men who built it.</p>
                   <p>&nbsp;</p>
-                  <p>at night, i hear cars passing over the flyover. i wonder where people are going so late. i ask myself if my interest in <a href="https://www.researchgate.net/publication/227700296_Container_Technologies" target="_blank" style="color: blue; text-decoration: underline;">container technologies</a> is a compensation for my own relative deficiency in the container department. upon waking, i salute the flyover along with the rising sun. It never rests. Its automated systems ensure a 24-hour facilitating environment to meet the demands of our metropolis: escorting <a href="https://frontdeskapparatus.com/wp/wp-content/uploads/2012/10/Building-Dwelling-Thinking.pdf" target="_blank" style="color: blue; text-decoration: underline;">hasty men</a> to and from the other side, each striving to surmount that which is unsound in them. similar to mothers, who nurture and provide for their infants. i can tell the structure is worn down. rust and other imperfections have quietly settled onto its membrane. perhaps, being porous enables intimacy with its surroundings. can its embrace help me better understand my sexuality? more broadly, does perceiving architecture as an extension of our skin challenge views of gender roles? I use binary code (0s and 1s) to probe these questions, expose the downsides of societal binaries, and offer ways to bridge the gaps.</p>      
+                  <p>At night, I hear cars passing over the flyover. I wonder where people are going so late. I ask myself if my interest in <a href="https://www.researchgate.net/publication/227700296_Container_Technologies" target="_blank" style="color: blue; text-decoration: underline;">container technologies</a> is a compensation for my own relative deficiency in the container department. Upon waking, I salute the flyover along with the rising sun. It never rests. Its automated systems ensure a 24-hour facilitating environment to meet the demands of our metropolis: escorting <a href="https://frontdeskapparatus.com/wp/wp-content/uploads/2012/10/Building-Dwelling-Thinking.pdf" target="_blank" style="color: blue; text-decoration: underline;">hasty men</a> to and from the other side, each striving to surmount that which is unsound in them. Similar to mothers, who nurture and provide for their infants. I can tell the structure is worn down. Rust and other imperfections have quietly settled onto its membrane. Perhaps, being porous enables intimacy with its surroundings. Can its embrace help me better understand my sexuality? More broadly, does perceiving architecture as an extension of our skin challenge views of gender roles? I use binary code (0s and 1s) to probe these questions, expose the downsides of societal binaries, and offer ways to bridge the gaps.</p>      
                   <p>&nbsp;</p>
-                  <p>//references</p>
-                  <p>london's screen archives, <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">the hammersmith flyover, hammersmith</a>, 1961</p>
-                  <p>do ho suh, <a href="https://www.itsnicethat.com/news/do-ho-suh-bridging-homes-art-260918" target="_blank" style="color: blue; text-decoration: underline;">bridging home</a>, 2018</p>
-                  <p>andrea long chu, <a href="https://www.are.na/block/25966066" target="_blank" style="color: blue; text-decoration: underline;">females</a>, 2019</p>
-                  <p>zoë soﬁa, <a href="https://www.researchgate.net/publication/227700296_Container_Technologies" target="_blank" style="color: blue; text-decoration: underline;">container technologies</a>, 2000</p>
-                  <p>serpentine galleries, <a href="https://open.spotify.com/episode/1C7PSJMVpnrXkKiJ0JwTDb?si=pQewpY9JT6yCapEy2Jsl3A" target="_blank" style="color: blue; text-decoration: underline;">intimacies: surroundings</a>, 2023</p>
-                  <p>martin heidegger, <a href="https://frontdeskapparatus.com/wp/wp-content/uploads/2012/10/Building-Dwelling-Thinking.pdf" target="_blank" style="color: blue; text-decoration: underline;">building dwelling thinking</a>, 1954</p>
+                  <p>//References</p>
+                  <p>London's Screen Archives, <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">The Hammersmith Flyover, Hammersmith</a>, 1961</p>
+                  <p>Do Ho Suh, <a href="https://www.itsnicethat.com/news/do-ho-suh-bridging-homes-art-260918" target="_blank" style="color: blue; text-decoration: underline;">Bridging Home</a>, 2018</p>
+                  <p>Andrea Long Chu, <a href="https://www.are.na/block/25966066" target="_blank" style="color: blue; text-decoration: underline;">Females</a>, 2019</p>
+                  <p>Zoë Sofía, <a href="https://www.researchgate.net/publication/227700296_Container_Technologies" target="_blank" style="color: blue; text-decoration: underline;">Container Technologies</a>, 2000</p>
+                  <p>Serpentine Galleries, <a href="https://open.spotify.com/episode/1C7PSJMVpnrXkKiJ0JwTDb?si=pQewpY9JT6yCapEy2Jsl3A" target="_blank" style="color: blue; text-decoration: underline;">Intimacies: Surroundings</a>, 2023</p>
+                  <p>Martin Heidegger, <a href="https://frontdeskapparatus.com/wp/wp-content/uploads/2012/10/Building-Dwelling-Thinking.pdf" target="_blank" style="color: blue; text-decoration: underline;">Building Dwelling Thinking</a>, 1954</p>
+                  <p>Man Ray, <a href="https://www.moma.org/collection/works/46921" target="_blank" style="color: blue; text-decoration: underline;">Anatomies</a>, 1929</p>
                   <p>&nbsp;</p>`,
       images: [
         "images/thegreatwhiteerection/thegreatwhiteerection.png",
@@ -25,29 +26,28 @@ const archive = [
         "iframe:https://kilianhoppner.github.io/3dspring/",
         "images/thegreatwhiteerection/thegreatwhiteerection02.png",
         "images/thegreatwhiteerection/thegreatwhiteerection03.png"
-        
-    ]
+      ]
   },
   {
-    col1: "electronic superhighway",
+    col1: "Electronic Superhighway",
     col2: "2025",
-    col3: "p5.js, ableton",
-    col4: "web-based",
-    col5: "in-progress",
-    description: `<p>electronic superhighway is a term coined in 1974 by video art pioneer <a href="https://en.wikipedia.org/wiki/Nam_June_Paik" target="_blank" style="color: blue; text-decoration: underline;">nam june paik</a>. it forecasts technology's ability to disseminate information and form global connections. using this notion as a starting point, i conduct a series of experiments alluding to: algorithms, information extraction, data as material, digital ecosystems as contested marketplaces etc., in an attempt to understand the fabric that holds together our communication networks.</p>
+    col3: "p5.js, Ableton",
+    col4: "Web-based",
+    col5: "In-progress",
+    description: `<p>Electronic superhighway is a term coined in 1974 by video art pioneer <a href="https://en.wikipedia.org/wiki/Nam_June_Paik" target="_blank" style="color: blue; text-decoration: underline;">Nam June Paik</a>. It forecasts technology's ability to disseminate information and form global connections. Using this notion as a starting point, I conduct a series of experiments alluding to: algorithms, information extraction, data as material, digital ecosystems as contested marketplaces etc., in an attempt to understand the fabric that holds together our communication networks.</p>
                   <p>&nbsp;</p>
-                  <p> [fig.03] visualises the international organisation for migration's (iom) dtm sudan displacement data from 30 september 2025. it depicts the movement of internally displaced persons (idps) between states, showing the origin and destination of populations. keyboard shortcuts: (h)hide map, (l)line, (e)export.</p>
+                  <p>[Fig.03] visualises the International Organization for Migration's (IOM) DTM Sudan displacement data from 30 September 2025. It depicts the movement of internally displaced persons (IDPs) between states, showing the origin and destination of populations. Keyboard shortcuts: (H) hide map, (L) line, (E) export.</p>
                   <p>&nbsp;</p>
-                  <p>[fig.04] and [fig.05] use ml5.js libraries to examine positionality (x, y). where do we situate in space and how to create connections with things? the intervention of technology is inevitable and will increasingly impact the way we engage with the world (or not). keyboard shortcuts: (h)hide lines, (b)black background.</p>
+                  <p>[Fig.04] and [Fig.05] use ml5.js libraries to examine positionality (x, y). Where do we situate in space and how to create connections with things? The intervention of technology is inevitable and will increasingly impact the way we engage with the world (or not). Keyboard shortcuts: (H) hide lines, (B) black background.</p>
                   <p>&nbsp;</p>
-                  <p>//references</p>
-                  <p>international organisation for migration (iom), <a href="https://dtm.iom.int/sudan" target="_blank" style="color: blue; text-decoration: underline;">dtm sudan report</a>, 2025</p>
-                  <p>ryoji ikeda, <a href="https://www.180studios.com/data-cosm" target="_blank" style="color: blue; text-decoration: underline;">data-cosm [nº1]</a>, 2023</p>
-                  <p>ai weiwei, <a href="https://en.wikipedia.org/wiki/Human_Flow" target="_blank" style="color: blue; text-decoration: underline;">human flow</a>, 2017</p>
-                  <p>gloria e. anzaldúa, <a href="https://likeawhisper.wordpress.com/wp-content/uploads/2010/03/anzaldua-now-let-us-shift.pdf" target="_blank" style="color: blue; text-decoration: underline;">light in the dark, chapter 6</a>, 2016</p>
-                  <p>yoko ono, john lennon, <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">the war is over!</a>, 1969</p>
-                  <p>charlotte lengersdorf, <a href="https://charlottelengersdorf.com/index.html" target="_blank" style="color: blue; text-decoration: underline;">text/dance editor: writing choreography</a>, 2025</p>
-                  <p>bruno munari, <a href="http://imagineallthepeople.info/Munari-1966-Design-as-art.pdf" target="_blank" style="color: blue; text-decoration: underline;">design as art</a>, 1966</p>
+                  <p>//References</p>
+                  <p>International Organization for Migration (IOM), <a href="https://dtm.iom.int/sudan" target="_blank" style="color: blue; text-decoration: underline;">DTM Sudan Report</a>, 2025</p>
+                  <p>Ryoji Ikeda, <a href="https://www.180studios.com/data-cosm" target="_blank" style="color: blue; text-decoration: underline;">Data-cosm [Nº1]</a>, 2023</p>
+                  <p>Ai Weiwei, <a href="https://en.wikipedia.org/wiki/Human_Flow" target="_blank" style="color: blue; text-decoration: underline;">Human Flow</a>, 2017</p>
+                  <p>Gloria E. Anzaldúa, <a href="https://likeawhisper.wordpress.com/wp-content/uploads/2010/03/anzaldua-now-let-us-shift.pdf" target="_blank" style="color: blue; text-decoration: underline;">Light in the Dark, Chapter 6</a>, 2016</p>
+                  <p>Yoko Ono, John Lennon, <a href="https://www.londonsscreenarchives.org.uk/title/19773/" target="_blank" style="color: blue; text-decoration: underline;">The War Is Over!</a>, 1969</p>
+                  <p>Charlotte Lengersdorf, <a href="https://charlottelengersdorf.com/index.html" target="_blank" style="color: blue; text-decoration: underline;">Text/Dance Editor: Writing Choreography</a>, 2025</p>
+                  <p>Bruno Munari, <a href="http://imagineallthepeople.info/Munari-1966-Design-as-art.pdf" target="_blank" style="color: blue; text-decoration: underline;">Design as Art</a>, 1966</p>
                   <p>&nbsp;</p>`,
     images: [
       "images/electronicsuperhighway/electronicsuperhighway04.png",
@@ -56,22 +56,21 @@ const archive = [
       "iframe:https://kilianhoppner.github.io/bodyskeleton/",
       "iframe:https://kilianhoppner.github.io/facemesh/",
       "images/electronicsuperhighway/electronicsuperhighway.png"
-      
     ]
   },
   {
-    col1: "#surveillancecore pt.01",
+    col1: "#Surveillancecore Pt.01",
     col2: "2024",
     col3: "p5.js",
-    col4: "interactive installation",
-    col5: "completed",
-    description: `<p>#surveillancecore pt.01 is an interactive installation made in collaboration with <a href="https://www.linkedin.com/in/hannah-ogawa-9931ab303/" target="_blank" style="color: blue; text-decoration: underline;"><u>hannah ogawa</u></a>. the camera in [fig.01] is coded to track people's faces and detect their emotions. by transforming personal interactions into data, the installation prompts viewers to reflect on surveillance technology and its capability to blur boundaries between connection and control. it invites critical examination of privacy, agency, and the ethics of observation in the digital age. #surveillancecore is a self-led and ongoing research initiative.</p>
+    col4: "Interactive Installation",
+    col5: "Completed",
+    description: `<p>#Surveillancecore Pt.01 is an interactive installation made in collaboration with <a href="https://www.linkedin.com/in/hannah-ogawa-9931ab303/" target="_blank" style="color: blue; text-decoration: underline;"><u>Hannah Ogawa</u></a>. The camera in [Fig.01] is coded to track people's faces and detect their emotions. By transforming personal interactions into data, the installation prompts viewers to reflect on surveillance technology and its capability to blur boundaries between connection and control. It invites critical examination of privacy, agency, and the ethics of observation in the digital age. #Surveillancecore is a self-led and ongoing research initiative.</p>
                   <p>&nbsp;</p>
-                  <p>//references</p>
-                  <p>nam june paik, <a href="https://www.artgallery.nsw.gov.au/collection/works/342.2011.a-f/" target="_blank" style="color: blue; text-decoration: underline;">tv buddha</a>, 1976</p>
-                  <p>skepta, <a href="https://www.youtube.com/watch?v=rC-J4x-oTto" target="_blank" style="color: blue; text-decoration: underline;">#skeptacore pt.2</a>, 2023</p>
-                  <p>ryoji ikeda, <a href="https://www.ryojiikeda.com/project/datamatics/" target="_blank" style="color: blue; text-decoration: underline;">datamatics</a>, 2006</p>
-                  <p>miguel chevalier, <a href="https://www.miguel-chevalier.com/work/anthropometry-1989" target="_blank" style="color: blue; text-decoration: underline;">anthropometry</a>, 1989</p>
+                  <p>//References</p>
+                  <p>Nam June Paik, <a href="https://www.artgallery.nsw.gov.au/collection/works/342.2011.a-f/" target="_blank" style="color: blue; text-decoration: underline;">TV Buddha</a>, 1976</p>
+                  <p>Skepta, <a href="https://www.youtube.com/watch?v=rC-J4x-oTto" target="_blank" style="color: blue; text-decoration: underline;">#Skeptacore Pt.2</a>, 2023</p>
+                  <p>Ryoji Ikeda, <a href="https://www.ryojiikeda.com/project/datamatics/" target="_blank" style="color: blue; text-decoration: underline;">Datamatics</a>, 2006</p>
+                  <p>Miguel Chevalier, <a href="https://www.miguel-chevalier.com/work/anthropometry-1989" target="_blank" style="color: blue; text-decoration: underline;">Anthropometry</a>, 1989</p>
                   <p>&nbsp;</p>`,
     images: [
       "iframe:https://kilianhoppner.github.io/surveillancecore-pt.1/",
@@ -80,24 +79,24 @@ const archive = [
     ]
   },
   {
-    col1: "the weather room",
+    col1: "The Weather Room",
     col2: "2024",
-    col3: "processing",
-    col4: "interactive installation",
-    col5: "completed",
-    description: `<p>the weather room is an interactive installation created in collaboration with <a href="https://www.isobellemccall.com/" target="_blank" style="color: blue; text-decoration: underline;">isobelle mccall</a> as part of a media art course at the university of melbourne. in the exhibition space, viewers can influence the ambience through their presence. projected light changes colour from dark blue tones to warm orange hues based on how loud it gets in the room. this creates an audio-visual representation of the human experience with the environment, inviting reflection of our relationship with nature.</p>
+    col3: "Processing",
+    col4: "Interactive Installation",
+    col5: "Completed",
+    description: `<p>The weather room is an interactive installation created in collaboration with <a href="https://www.isobellemccall.com/" target="_blank" style="color: blue; text-decoration: underline;">Isobelle McCall</a> as part of a media art course at the University of Melbourne. In the exhibition space, viewers can influence the ambience through their presence. Projected light changes colour from dark blue tones to warm orange hues based on how loud it gets in the room. This creates an audio-visual representation of the human experience with the environment, inviting reflection of our relationship with nature.</p>
                   <p>&nbsp;</p>
-                  <p>//references</p>
-                  <p>olafur eliasson, <a href="https://olafureliasson.net/artwork/the-weather-project-2003/" target="_blank" style="color: blue; text-decoration: underline;">the weather project</a>, 2003</p>
-                  <p>james turrell, <a href="https://www.pacegallery.com/exhibitions/james-turrell-elemental/" target="_blank" style="color: blue; text-decoration: underline;">elemental</a>, 2022</p>
-                  <p>julinka ebhardt, francesco tacchini, will yates-johnson, <a href="https://vimeo.com/87979136" target="_blank" style="color: blue; text-decoration: underline;">space replay</a>, 2014</p>
-                  <p>john warwicker, <a href="https://www.johnwarwicker.com/sony-connected-identity-1/ez6vgi16gtvobpccjsmq013z90rru2" target="_blank" style="color: blue; text-decoration: underline;">sony connected identity</a>, 2001</p>
+                  <p>//References</p>
+                  <p>Olafur Eliasson, <a href="https://olafureliasson.net/artwork/the-weather-project-2003/" target="_blank" style="color: blue; text-decoration: underline;">The Weather Project</a>, 2003</p>
+                  <p>James Turrell, <a href="https://www.pacegallery.com/exhibitions/james-turrell-elemental/" target="_blank" style="color: blue; text-decoration: underline;">Elemental</a>, 2022</p>
+                  <p>Julinka Ebhardt, Francesco Tacchini, Will Yates-Johnson, <a href="https://vimeo.com/87979136" target="_blank" style="color: blue; text-decoration: underline;">Space Replay</a>, 2014</p>
+                  <p>John Warwicker, <a href="https://www.johnwarwicker.com/sony-connected-identity-1/ez6vgi16gtvobpccjsmq013z90rru2" target="_blank" style="color: blue; text-decoration: underline;">Sony Connected Identity</a>, 2001</p>
                   <p>&nbsp;</p>`,
     images: [
-    "images/theweatherroom/theweatherroom01.png", 
-    "images/theweatherroom/theweatherroom02.png", 
-    "images/theweatherroom/theweatherroom03.png"
-  ]
+      "images/theweatherroom/theweatherroom01.png", 
+      "images/theweatherroom/theweatherroom02.png", 
+      "images/theweatherroom/theweatherroom03.png"
+    ]
   }
 ];
 

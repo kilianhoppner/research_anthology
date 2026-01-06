@@ -99,7 +99,7 @@ table {
   grid-column: 1;
   padding: var(--cell-pad-v) var(--cell-pad-h);
   font-size: var(--font-size-ui);
-  text-transform: lowercase;
+  text-transform: none;
   font-weight: 700;
   vertical-align: top;
   padding-top: 0;
@@ -110,7 +110,7 @@ table {
   grid-column: 2;
   padding: var(--cell-pad-v) var(--cell-pad-h);
   font-size: var(--font-size-ui);
-  text-transform: lowercase;
+  text-transform: none;
   font-weight: 300;
   vertical-align: top;
   padding-top: 0;
@@ -130,7 +130,7 @@ table {
 
 .top-header-row .links {
   padding-top: 0;
-  text-transform: lowercase;
+  text-transform: none;
   font-weight: 300;
   line-height: 1.25em;
 }
@@ -230,7 +230,7 @@ td {
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  text-transform: lowercase;
+  text-transform: none;
   font-size: var(--font-size-ui);
   box-sizing: border-box;
   position: relative;
